@@ -1,0 +1,78 @@
+.containerPage{
+    background: #23252C;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageMeme{
+    width: 550px;
+    height: 550px;
+    background: #fff;
+}
+header{
+    background: linear-gradient(90deg , #672280, #A626D3);
+    color: #fff;
+    height: 65px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+nav p{
+    font-size: 12px;
+    font-weight: 600;
+}
+form{
+    padding: 36px;
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+form input{
+    outline: unset;
+    border-radius: 5px;
+    border: 1px solid #d5d4d8;
+    text-indent: 7px;
+    font-size: 18px;
+}
+
+form button{
+    background: linear-gradient(90deg , #672280, #A626D3);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    border: unset;
+}
+.image {
+    width: 477px;
+    height: 268px;
+    margin: 0 auto;
+    position: relative;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.image h2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #00000073;
+}
+.image h2:first-of-type{
+    top: 12px;
+}
+.image h2:last-of-type{
+    bottom: 12px;
+}
